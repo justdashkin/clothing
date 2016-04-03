@@ -1,0 +1,575 @@
+@media screen and (min-width: 1439px) {
+
+  body{
+    font-size: 1em;
+  }
+
+  #wrapper {
+    width: 1242px;
+  }
+  /*header*/
+
+  nav li {
+    padding-right: 22px;
+  }
+
+  #basket {
+    margin-right: 67px;
+
+  }
+
+  #basket > span {
+    line-height: 11px;
+  }
+
+  .hr-top {
+    margin-top: -7px;
+  }
+  /*header*/
+  /*shop-list*/
+
+  .shop-list {
+  margin-bottom: 77px;
+  }
+
+  .goods {
+  height: 340px;
+  width: 1440px;
+  margin-bottom: 36px;
+  }
+
+  .goods .element:first-child {
+  margin-left: 34px;
+  }
+
+  .goods .element:last-child {
+  margin-right: 32px;
+  }
+
+  .element {
+  float: left;
+  display: inline-block;
+  margin-left: 66px;
+  margin-right: 47px;
+
+  }
+
+
+  .img-link {
+  width: 209px;
+  margin-bottom: 18px;
+  outline: 1px solid #e5e5e5;
+  }
+
+
+  .h3-link{
+  width: 209px;
+  height: 15px;
+  }
+
+  .section-hr{
+margin-bottom: 44px;
+
+  }
+.subheader-h1{
+  letter-spacing: 0.1px;
+}
+
+  .last-one{
+     margin-bottom: 44px;
+  }
+
+  /*shop-list*/
+  /*footer*/
+  footer {
+    margin-top: 114px;
+  }
+
+  .collection {
+    width: 165px;
+    padding-left: 33px;
+    padding-right: 129px;
+  }
+
+  .site {
+    width: 164px;
+    padding-left: 14px;
+    padding-right: 114px;
+  }
+
+  .shop {
+    width: 164px;
+    padding-left: 14px;
+    padding-right: 115px;
+  }
+
+  /*footer*/
+
+}
+
+@media screen and (max-width: 1023px) {
+
+  #wrapper {
+    width: 100%;
+  }
+  /*header*/
+  #logo {
+      margin-right: 2%;
+    }
+
+  nav {
+    width: 41.395%;
+  }
+
+  nav li {
+    padding-left: 5%;
+    padding-right: 4.3%;
+  }
+  /*header*/
+  /*shop-list*/
+
+  .goods {
+  height: 340px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 36px;
+  }
+
+  .goods .element:first-child {
+  margin-left: 1%;
+  }
+
+  .goods .element:last-child {
+  margin-right: 1%;
+  }
+
+  .element {
+  float: none;
+  margin-left: 1%;
+  margin-right: 1%;
+
+  }
+
+  /*shop-list*/
+  /*footer*/
+  .collection {
+    width: 11.13%;
+    padding-right: 7.9%;
+  }
+
+  .site {
+    width: 14.13%;
+    padding-right: 5.4%;
+  }
+
+  .shop {
+    width: 15.13%;
+    padding-right: 4.5%;
+  }
+
+  .social {
+    width: 28.9%;
+  }
+  /*footer*/
+}
+
+
+@media screen and (max-width: 768px) {
+
+  body{
+    font-size: 0.75em;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+  /*header*/
+  header {
+    height: 312px;
+    padding-top: 21px;
+    width: 100%;
+  }
+
+  #logo {
+    margin-left: 20px;
+    margin-right: 0px;
+    width: 60px;
+    height: 55px;
+  }
+
+  #logo-text {
+    margin-top: 13px;
+    font-size: 1.16666em;
+  }
+
+
+  nav {
+    width: 100%;
+    height: 236px;
+    display: block;
+    margin-top: 95px;
+  }
+
+  nav li {
+    text-align: center;
+    display: block;
+    float: none;
+    height: 59px;
+    padding-left: 0px;
+    padding-right: 0px;
+    line-height: 1;
+    letter-spacing: 0.2px;
+    font-size: 1.1666em;
+  }
+
+  nav li > a {
+    display: inline;
+    margin-top: 0px;
+  }
+
+
+  .form-search {
+    margin-right: 15px;
+    margin-top: 10px;
+  }
+
+  #basket {
+    margin-right: 2.6%;
+    margin-top: 2.1%;
+  }
+
+.basket-img-big {
+    display: inline-block;
+  }
+
+  .basket-img-small {
+    display: none;
+  }
+
+  #basket a span {
+    letter-spacing: -0.1px;
+    line-height: 19px;
+    font-size: 1.1666em;
+  }
+
+  .hr-top {
+    margin-top: -21px;
+  }
+
+.hr-top-2{
+  display: block;
+  margin-top: -245px;
+  width: 95%;
+  height: 1px;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.102;
+}
+  /*header*/
+  /*shop-list*/
+  .breadcrumbs {
+    margin-top: 32px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .goods {
+  height: 680px;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 52px;
+  }
+
+  .goods .element:first-child {
+    margin-right: 0%;
+  margin-left: 6%;
+  margin-bottom: 21px;
+  }
+
+  .goods .element:last-child {
+  margin-right: 6%;
+  margin-left: 0%;
+  }
+
+
+  .img-link {
+  width: 224px;
+  margin-bottom: 18px;
+  outline: 1px solid #e5e5e5;
+  }
+
+  .h3-link{
+  width: 224px;
+  height: 15px;
+  }
+
+  .element {
+  float: none;
+  margin-left: 6%;
+  margin-right: 6%;
+  }
+
+  .section-hr{
+    width: 65%;
+  }
+
+  .last-one .goods{
+    margin-bottom: 56px;
+  }
+
+.last-one hr{
+  width: 95%;
+}
+
+.last-one .subheader-h1{
+  display: none;
+}
+
+.slider{
+  display: none;
+}
+
+  /*shop-list*/
+
+  /*footer*/
+  footer {
+    box-sizing: border-box;
+    width: 100%;
+    height: 243px;
+    margin-top: -23px;
+  }
+
+  .footer-div{
+    width: 60%;
+    height: 243px;
+    margin: 24px auto;
+    margin-bottom: 0px;
+    text-align: center;
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  footer ul {
+    display: inline-block;
+    float: left;
+    border-left: none;
+  }
+
+  footer ul li a {
+    font-family: "latoregular";
+    line-height: 2;
+    letter-spacing: 1px;
+  }
+
+  footer ul li {
+    line-height: 1.23;
+    letter-spacing: 0.45px;
+    padding-top: 9px;
+  }
+
+  .headings {
+    font-family: latobold;
+    line-height: 2.5;
+    letter-spacing: 3px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
+
+  .collection {
+    display: none;
+  }
+
+  .site {
+    display: none;
+  }
+
+  .shop {
+    display: none;
+  }
+
+  .social {
+    width: 100%;
+    padding-left: 0px;
+    line-height: 26px;
+    letter-spacing: -0.3px;
+  }
+
+.icons{
+    padding-top: 27px;
+  }
+
+  .icon {
+    margin-left: 6px;
+    margin-right: 5px;
+  }
+  /*footer*/
+
+}
+
+@media screen and (max-width: 551px) {
+
+    .img-link {
+    width: 167px;
+    }
+
+    .goods .element:first-child {
+      margin-right: 0%;
+    margin-left: 6%;
+    margin-bottom: 21px;
+    }
+
+    .goods .element:last-child {
+    margin-right: 6%;
+    margin-left: 0%;
+    }
+
+    .element {
+    float: none;
+    margin-left: 6%;
+    margin-right: 6%;
+    }
+
+    .h3-link{
+    width: 167px;
+    }
+
+
+}
+
+@media screen and (max-width: 414px) {
+
+  body{
+    font-size: 0.625em;
+  }
+
+  /*header*/
+  header {
+    height: 372px;
+  }
+
+  #logo-text{
+    font-size: 1.6em;
+  }
+
+  .form-search {
+    width: 93%;
+    margin-right: 4%;
+    margin-top: 3.7%;
+  }
+
+  .active-input {
+    width: 335px;
+  }
+
+  #basket {
+    margin-right: 4.5%;
+    margin-top: 4.5%;
+  }
+
+  #basket > span {
+    letter-spacing: 0.25px;
+  }
+
+  .hr-top {
+    width: 90%;
+  }
+
+.hr-top-2{
+  width: 90%;
+}
+
+nav {
+    margin-top: 155px;
+}
+  /*header*/
+  /*shop-list*/
+  .shop-list {
+    margin-bottom: -6px;
+  }
+
+  .shop-list > h2 {
+      margin-top: 40px;
+      margin-bottom: 34px;
+  }
+  .breadcrumbs {
+      margin-bottom: 46px;
+  }
+
+  .goods {
+    margin-bottom: 11px;
+  }
+
+  .last-one .goods {
+      margin-bottom: 15px;
+  }
+
+  .section-hr {
+    width: 90%;
+}
+
+.last-one {
+    margin-top: -15px;
+}
+
+
+  /*shop-list*/
+/*footer*/
+footer {
+    margin-top: -24px;
+}
+
+.footer-div {
+    width: 73%;
+    margin-right: 13.5%;
+    margin-left: 13.5%;
+}
+.icons {
+    padding-top: 26px;
+}
+/*footer*/
+}
+
+@media screen and (max-width: 413px) {
+
+  .form-search {
+    width: 93%;
+    margin-right: 4%;
+    margin-top: 3.7%;
+  }
+
+  .active-input {
+    width: 83%;
+  }
+
+  .goods {
+    height: auto;
+
+  }
+
+  .goods .element:first-child {
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+  .element {
+    float: none;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+  .img-link {
+    width: 100%;
+    height: auto;
+}
+
+.h3-link {
+    width: 100%;
+}
+
+.element > span {
+    width: 100%;
+    margin-top: 0px;
+}
+
+
+
+}

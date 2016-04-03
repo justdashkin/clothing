@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/shop-cart.css">
+  <link rel="stylesheet" href="css/media-queries-shop-cart.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/common/lodash.js"></script>
+
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <a id="logo" href="index.html">
+        <div id="logo-text">SH</div>
+      </a>
+      <div id="basket"><a href="shop-cart.html"><img class="basket-img-small" src="img/icon_basket_small.png" alt="icon_search"><img class="basket-img-big" src="img/icon_basket_big.png" alt="icon_search"><span> Basket (<span class="numb-items"></span>)</span></a></div>
+      <form action="" class="form-search">
+        <button class="search-butt" type="button"><img class="icon-search" src="img/icon_search.png" alt="icon_search"></button>
+        <input class="input-search" type="search" placeholder=" Search something...">
+      </form>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="category-all.html">Woman</a></li>
+          <li><a href="category-all.html">Men</a></li>
+          <li><a href="category-all.html">Kids</a></li>
+          <li><a href="category-all.html">Coming Soon</a></li>
+        </ul>
+      </nav>
+      <hr class="hr-top">
+      <hr class="hr-top-2">
+    </header>
+    <div class="breadcrumbs"></div>
+    <section class="titles">
+      <h2>Your Shopping Bag</h2>
+      <span class="subheader-h2">Items reserved for limited time only</span>
+    </section>
+    <section id="bag">
+
+      <table class="bag-table">
+        <tr>
+          <th class="col1">product</th>
+          <th class="col2">description</th>
+          <th class="col3">color</th>
+          <th class="col4">size</th>
+          <th class="col5">qty</th>
+          <th class="col6">amount</th>
+          <th class="col7">delete</th>
+        </tr>
+      </table>
+      <table class="bag-table1">
+
+      </table>
+      <table class="bag-table2">
+
+      </table>
+      <div class="subtotal"><span>Subtotal:</span>
+        <div class="total-price"></div><span> $</span></div>
+      <div class="shopping"> <a href="category-all.html">Continue Shopping</a>
+        <a type="button" name="button" class="orange-button" href="thank-you.html">order now</a>
+      </div>
+      <hr class="hr-bottom">
+    </section>
+    <footer>
+      <div class="footer-div">
+        <ul class="collection">
+          <li class="headings">COLLECTION</li>
+          <li><a href="">Woman</a></li>
+          <li><a href="">Men</a></li>
+          <li><a href="">Kids</a></li>
+          <li><a href="">Coming Soon</a></li>
+        </ul>
+        <ul class="site">
+          <li class="headings">SITE</li>
+          <li><a href="">Terms of Service</a></li>
+          <li><a href="">Privacy Policy</a></li>
+          <li><a href="">Copyright Policy</a></li>
+          <li><a href="">Press Kit</a></li>
+          <li><a href="">Support</a></li>
+        </ul>
+        <ul class="shop">
+          <li class="headings">SHOP</li>
+          <li><a href="">About Us</a></li>
+          <li><a href="">Shipping Methods</a></li>
+          <li><a href="">Career</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+        <ul class="social">
+          <li class="headings">SOCIAL</li>
+          <li>Shoper is made with love in Warsaw ,</li>
+          <li>2014 &copy All rights reserved. EI Passion</li>
+          <li class="icons">
+            <a class="icon" href=""><img src="img/icon_twit.png" alt=""></a>
+            <a class="icon" href=""><img src="img/icon_face.png" alt=""></a>
+            <a class="icon" href=""><img src="img/icon_photo.png" alt=""></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </div>
+  <script src="js/common/jquery-2.2.0.min.js"></script>
+
+  <script src="js/shop.js" charset="utf-8"></script>
+  <script src="js/index.js"></script>
+
+  <script type="text/html" id="cart-data">
+    <% _.each(data,function(value,key){ %>
+      <tr>
+        <td class="col1"><img src=<%= value.srcSmall1 %> alt=""></td>
+        <td class="col2"><h3><%=value.name%></h3><p>Ref.2514/302</p></td>
+        <td class="col3">color</td>
+        <td class="col4"><%=value.size%></td>
+        <td class="col5"><input class="input-number" type="number" min="1" max="100" value="<%=value.value%>">
+        </td><td class="col6"><%= value.amount %> $</td>
+        <td class="col7">
+          <div class="delete"><img src="img/icon_delete.png" alt=""></div>
+        </td>
+      </tr>
+      <% }) %>
+  </script>
+
+  <script type="text/html" id="cart-data-small">
+    <% _.each(data,function(value,key){ %>
+      <tr><td class="col1"><img src=<%= value.srcSmall1 %>></td><td class="col2"><h3><%=value.name%></h3><p>Ref.2514/302</p>
+          <p>color</p>
+          <p class="value-size"><%=value.size%></p>
+          <p>
+            <input class="input-number" type="number" min="1" max="100" value="<%=value.value%>">
+            </p>
+        </td>
+
+        <td class="col3">
+          <div class="delete"><img src="img/icon_delete.png" alt=""></div>
+          <span><%= value.amount %> $</span>
+        </td>
+      </tr>
+      <% }) %>
+  </script>
+
+
+</body>
+
+</html>
